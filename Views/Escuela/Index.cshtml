@@ -1,0 +1,12 @@
+﻿@model Escuela
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1>Bienvenido a la Escuela</h1>
+    <h2>Escuela: @Model.Nombre</h2>
+    <h3>Año de creación: @Model.AñoDeCreacion.ToString()</h3>
+</div>
